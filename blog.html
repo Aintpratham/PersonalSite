@@ -4,8 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog — AintPratham</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,20 +14,26 @@
   </div>
 
   <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/blog" class="active">Blog</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html" class="active">Blog</a>
   </nav>
 
   <section class="blog-posts">
-    {% for post in posts %}
-      <div class="post">
-        <h2>📝 {{ post.title }}</h2>
-        <p class="blog-meta">{{ post.date }} · by {{ post.author }}</p>
-        <p>{{ post.content }}</p>
-      </div>
-    {% endfor %}
+    <div class="post">
+      <h2>📝 This Blog Wasn’t Supposed to Happen</h2>
+      <p class="blog-meta">May 20, 2025 · by Bunny</p>
+      <p>
+        I didn’t plan this. I just opened a blank page and let the overthinking take the wheel.
+        Now I’m blogging. Great.
+      </p>
+      <p>
+        Not sure if this is a personal archive, a soft breakdown, or both.
+        Maybe I just needed a place to scream — politely.
+      </p>
+      <blockquote>“I am the one who blogs.” — me, lying to myself at midnight</blockquote>
+    </div>
   </section>
 
   <footer>

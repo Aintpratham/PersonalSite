@@ -95,11 +95,12 @@ body {
 /* --- ABOUT PAGE STYLES --- */
 
 .sub-header {
-    background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 5rem 2rem;
-  }
+  background: url('images/background.png') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
   
   .sub-header h1 {
     font-size: 3rem;

@@ -208,3 +208,15 @@ body {
     object-fit: cover;
   }
   
+  .center-text {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .coming-soon-text {
+    margin-top: 0.75rem;
+    font-size: 1.1rem;
+    color: #ddd;
+  }
+  

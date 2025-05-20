@@ -6,10 +6,11 @@ body {
   }
   
   header {
-    background: url("images/background.png") center/cover no-repeat fixed;
-    padding: 6rem 2rem;
-    text-align: center;
-  }
+  background: url("images/background.png") bottom center / cover no-repeat fixed;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
   
   header h1 {
     font-size: 3rem;

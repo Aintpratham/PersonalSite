@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://aintpratham.github.io/PersonalSite",
+  "homepage": "https://aintpratham.com",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build && react-snap",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "npx jest"
   },
@@ -47,6 +48,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.3.0",
     "react-snap": "^1.23.0",
     "rimraf": "^6.0.1",
     "sass": "^1.85.0",

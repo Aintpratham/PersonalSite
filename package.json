@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aintpratham/bunny-website.git"
+    "url": "https://github.com/aintpratham/PersonalSite.git"
   },
   "engines": {
     "node": ">=16.x"

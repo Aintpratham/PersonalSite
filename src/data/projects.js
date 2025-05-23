@@ -6,9 +6,9 @@ const data = [
     image: '',
     date: '',
     desc:
-      ''
+      '',
   },
-  
+
 ];
 
 export default data;

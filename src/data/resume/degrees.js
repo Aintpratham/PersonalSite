@@ -5,7 +5,7 @@ const degrees = [
     link: 'https://www.fanshawec.ca/',
     year: 2027,
   },
-  
+
 ];
 
 export default degrees;

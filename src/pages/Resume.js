@@ -33,7 +33,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="resume">Resume</Link>
+            <Link to="/resume">Resume</Link>
           </h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
